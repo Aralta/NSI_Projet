@@ -1,0 +1,10 @@
+lac:
+ coin superieur gauche =A
+ cote superieur=B
+ coin superieur droit=C
+ cote droite=D
+ coin inferieur droit=E
+ cote inferieur=F
+ coin inferieur gauche=G
+ cote gauche=H
+interieur=O
