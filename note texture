@@ -1,10 +1,23 @@
+herbe = zz
+
+maison:
+av;aw;ax;ay;az;ba;bb
+ao;ap;aq;ar;as;at;au
+ah;ai;aj;ak;al;am;an
+aa;ab;ac;ad;ae;af;ag
+
 lac:
- coin superieur gauche =A
- cote superieur=B
- coin superieur droit=C
- cote droite=D
- coin inferieur droit=E
- cote inferieur=F
- coin inferieur gauche=G
- cote gauche=H
-interieur=O
+ coin superieur gauche =bi
+ cote superieur=bj
+ coin superieur droit=bk
+ cote droite=bh
+ coin inferieur droit=be
+ cote inferieur=bd
+ coin inferieur gauche=bc
+ cote gauche=bf
+interieur=bg
+    bi;bj;bk
+    bf;bg;bh
+    bc;bd;be
+
+
