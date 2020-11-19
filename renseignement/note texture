@@ -16,8 +16,14 @@ lac:
  coin inferieur gauche=bc
  cote gauche=bf
 interieur=bg
+
     bi;bj;bk
     bf;bg;bh
     bc;bd;be
+
+
+
+chemin:
+
 
 
