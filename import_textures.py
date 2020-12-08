@@ -38,7 +38,12 @@ bh = 34
 bi = 35
 bj = 36
 bk = 37
-
+bl = 38
+bm = 39
+bn = 40
+bo = 41
+bp = 42
+bq = 43
 
 
 TEXTURES ={ 
@@ -89,16 +94,16 @@ TEXTURES ={
 
 
 #chemin
-#    a: pygame.image.load
-#    b: pygame.image.load
-#    c: pygame.image.load
-#    d: pygame.image.load
-#    e: pygame.image.load
-#    f: pygame.image.load
-#    g: pygame.image.load
-#    h: pygame.image.load
-#    i: pygame.image.load
-#    j: pygame.image.load
+    bl: pygame.image.load("./Textures/chemin/bl.png"),
+    bm: pygame.image.load("./Textures/chemin/bm.png"),
+    bn: pygame.image.load("./Textures/chemin/bn.png"),
+    bo: pygame.image.load("./Textures/chemin/bo.png"),
+#    e: pygame.image.load("./Textures/chemin/   .png"),
+#    f: pygame.image.load("./Textures/chemin/   .png"),
+#    g: pygame.image.load("./Textures/chemin/   .png"),
+#    h: pygame.image.load("./Textures/chemin/   .png"),
+#    i: pygame.image.load("./Textures/chemin/   .png"),
+#    j: pygame.image.load("./Textures/chemin/   .png"),
 #    k: pygame.image.load
 #    l: pygame.image.load
 #    m: pygame.image.load
