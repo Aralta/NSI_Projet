@@ -98,7 +98,7 @@ TEXTURES ={
     bm: pygame.image.load("./Textures/chemin/bm.png"),
     bn: pygame.image.load("./Textures/chemin/bn.png"),
     bo: pygame.image.load("./Textures/chemin/bo.png"),
-#    e: pygame.image.load("./Textures/chemin/   .png"),
+    bp: pygame.image.load("./Textures/chemin/bp.png"),
 #    f: pygame.image.load("./Textures/chemin/   .png"),
 #    g: pygame.image.load("./Textures/chemin/   .png"),
 #    h: pygame.image.load("./Textures/chemin/   .png"),
