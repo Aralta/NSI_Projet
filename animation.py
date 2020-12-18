@@ -1,7 +1,7 @@
 #from pygame_functions import *
 import pygame
 pygame.init()
-from grid1 import *
+from grids import *
 
 class Player:
     def __init__(self):

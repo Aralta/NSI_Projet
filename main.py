@@ -1,6 +1,5 @@
 import pygame
-from grid1 import *
-from grid2 import *
+from grids import *
 from animation import Player
 from animation import deplacement
 from animation import *
