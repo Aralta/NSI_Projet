@@ -44,7 +44,30 @@ bn = 40
 bo = 41
 bp = 42
 bq = 43
-
+br = 44
+bs = 45
+bt = 46
+bu = 47
+bv = 48
+bw = 49
+bx = 50
+by = 51
+bz = 52
+ca = 53
+cb = 54
+cc = 55
+cd = 56
+ce = 57
+cf = 58
+cg = 59
+ch = 60
+ci = 61
+cj = 62
+ck = 63
+cl = 64
+cm = 65
+cn = 66
+co = 67
 
 TEXTURES ={ 
     zz: pygame.image.load("./Textures/herbe.png"), 
@@ -99,14 +122,58 @@ TEXTURES ={
     bn: pygame.image.load("./Textures/chemin/bn.png"),
     bo: pygame.image.load("./Textures/chemin/bo.png"),
     bp: pygame.image.load("./Textures/chemin/bp.png"),
-#    f: pygame.image.load("./Textures/chemin/   .png"),
-#    g: pygame.image.load("./Textures/chemin/   .png"),
-#    h: pygame.image.load("./Textures/chemin/   .png"),
+    bq: pygame.image.load("./Textures/chemin/bq.png"),
+    br: pygame.image.load("./Textures/chemin/br.png"),
+    bs: pygame.image.load("./Textures/chemin/bs.png"),
+    bt: pygame.image.load("./Textures/chemin/bt.png"),
+   # bu: pygame.image.load("./Textures/chemin/bu.png"),
+  #  bv: pygame.image.load("./Textures/chemin/bv.png"),
+ #   bw: pygame.image.load("./Textures/chemin/bw.png"),
+  #  bx: pygame.image.load("./Textures/chemin/bx.png"),
+
+#texture toit maison 2
+ #   by: pygame.image.load("./Textures/toit-maison2/by.png"),
+  #  bz: pygame.image.load("./Textures/toit-maison2/bz.png"),
+   # ca: pygame.image.load("./Textures/toit-maison2/ca.png"),
+    #cb: pygame.image.load("./Textures/toit-maison2/cb.png"),
+   # cc: pygame.image.load("./Textures/toit-maison2/cc.png"),
+   # cd: pygame.image.load("./Textures/toit-maison2/cd.png"),
+   # ce: pygame.image.load("./Textures/toit-maison2/ce.png"),
+   # cf: pygame.image.load("./Textures/toit-maison2/cf.png"),
+    #cg: pygame.image.load("./Textures/toit-maison2/cg.png"),
+   # ch: pygame.image.load("./Textures/toit-maison2/ch.png"),
+   # ci: pygame.image.load("./Textures/toit-maison2/ci.png"),
+   # cj: pygame.image.load("./Textures/toit-maison2/cj.png"),
+    #ck: pygame.image.load("./Textures/toit-maison2/ck.png"),
+    #cl: pygame.image.load("./Textures/toit-maison2/cl.png"),
+    #cm: pygame.image.load("./Textures/toit-maison2/cm.png"),
+    #cn: pygame.image.load("./Textures/toit-maison2/cn.png"),
+    #co: pygame.image.load("./Textures/toit-maison2/co.png"),
+    #ar: pygame.image.load("./Textures/toit-maison2/ar.png"),
+    #aS: pygame.image.load("./Textures/toit-maison2/as.png"),
+    #at: pygame.image.load("./Textures/toit-maison2/at.png"),
+    #au: pygame.image.load("./Textures/toit-maison2/au.png"),
+    #av: pygame.image.load("./Textures/toit-maison2/av.png"),
+    #aw: pygame.image.load("./Textures/toit-maison2/aw.png"),
+    #ax: pygame.image.load("./Textures/toit-maison2/ax.png"),
+    #ay: pygame.image.load("./Textures/toit-maison2/ay.png"),
+    #az: pygame.image.load("./Textures/toit-maison2/az.png"),
+    #ba: pygame.image.load("./Textures/toit-maison2/ba.png"),
+    #bb: pygame.image.load("./Textures/toit-maison2/bb.png"),
+
+
+
+
+
+
+
 #    i: pygame.image.load("./Textures/chemin/   .png"),
 #    j: pygame.image.load("./Textures/chemin/   .png"),
 #    k: pygame.image.load
 #    l: pygame.image.load
 #    m: pygame.image.load
+
+
 
     
 
