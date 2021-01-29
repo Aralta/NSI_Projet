@@ -1,6 +1,7 @@
 import pygame
 from grids.grid1 import *
 from grids.grid2 import *
+from map_generation import *
 from animation import Player
 from animation import deplacement
 from animation import *
@@ -11,41 +12,16 @@ screen = pygame.display.set_mode((DISPLAYWEIDTH,DISPLAYHEIGHT))
 player = Player()
 player.rect.x = 500
 player.rect.y = 500
+map = Map(player, screen)
 pygame.key.set_repeat(1,10)
 true = True
 launched = True
-numgrille = 1
+
 
 
 while launched:
         
-    #materialisation grille
-    if numgrille == 1:
-        for row in range(MAPHEIGHT):
-            for column in range(MAPWIDTH):
-                screen.blit(TEXTURES[GRID1[row][column]], (column*TILESIZE, row*TILESIZE))
-        screen.blit(player.image,player.rect)
-        pygame.display.update()
-        
-        if PASSAGE1_AREA.collidepoint(player.rect.x+20,player.rect.y):
-            numgrille = 2 
-            player.rect.x = 20
-            player.rect.y = 400
-    
-    if numgrille == 2:
-
-         #materialisation grille
-        for row in range(MAPHEIGHT):
-            for column in range(MAPWIDTH):
-                screen.blit(TEXTURES[GRID2[row][column]], (column*TILESIZE, row*TILESIZE))
-        screen.blit(player.image,player.rect)
-        pygame.display.update() 
-
-        if PASSAGE2_AREA.collidepoint(player.rect.x+20,player.rect.y):
-            numgrille = 1
-            player.rect.x =1540
-            player.rect.y = 400
-    
+    map.generatemap()
     deplacement (player,b,a)
     
     b = b + 1
