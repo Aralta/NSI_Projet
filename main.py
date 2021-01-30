@@ -5,8 +5,6 @@ from map_generation import *
 from player import *
 
 pygame.init()
-pygame.display.set_caption("Haku's ADVENTURES")
-screen = pygame.display.set_mode((DISPLAYWEIDTH,DISPLAYHEIGHT))
 player = Player()
 player.rect.x = 500
 player.rect.y = 500
@@ -18,7 +16,13 @@ launched = True
 
 
 while launched:
+
+    if game == 0:
+        pygame.display.set_caption("Haku's ADVENTURES")
+        screen = pygame.display.set_mode((1080,740))
+        ecran()
         
+
     map.generatemap()
     deplacement (player,b,a)
     

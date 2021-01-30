@@ -1,10 +1,18 @@
 herbe = zz
 
 maison:
-av;aw;ax;ay;az;ba;bb
-ao;ap;aq;ar;as;at;au
-ah;ai;aj;ak;al;am;an
-aa;ab;ac;ad;ae;af;ag
+av,aw,ax,ay,az,ba,bb
+ao,ap,aq,ar,as,at,au
+ah,ai,aj,ak,al,am,an
+aa,ab,ac,ad,ae,af,ag
+
+maison2:
+ci,cj,ck,cl,cm,cn,co
+cf,cg,cg,cg,cg,cg,ch
+by,bz,ca,cb,cc,cd,ce
+aa,ab,ac,ad,ae,af,ag
+
+
 
 lac:
  coin superieur gauche =bi
@@ -17,13 +25,23 @@ lac:
  cote gauche=bf
 interieur=bg
 
-    bi;bj;bk
-    bf;bg;bh
-    bc;bd;be
+    bi,bj,bk
+    bf,bg,bh
+    bc,bd,be
 
 
 
-chemin:
+chemin terre:
+
+br,bs,bt
+bo,bp,bq    bw,bx
+bl,bm,bn    bu,bv
+
+chemin dalles:
+
+dg,dh,di
+dd,de,df    dl,dm
+da,db,dc    dj,dk
 
 
 
