@@ -15,8 +15,6 @@ pygame.key.set_repeat(1,10)
 true = True
 launched = True
 
-
-
 while launched:
         
     map.generatemap()
