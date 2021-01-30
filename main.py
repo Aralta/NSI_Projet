@@ -2,9 +2,7 @@ import pygame
 from grids.grid1 import *
 from grids.grid2 import *
 from map_generation import *
-from animation import Player
-from animation import deplacement
-from animation import *
+from player import *
 
 pygame.init()
 pygame.display.set_caption("Haku's ADVENTURES")
