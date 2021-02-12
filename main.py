@@ -25,3 +25,5 @@ while launched:
             
                 player.moving = (player.moving + 1) % 2
                 a = str(player.moving)
+
+    #ceci est un exemple de modif
