@@ -4,6 +4,8 @@ from grids.grid2 import *
 from map_generation import *
 from player import *
 
+
+
 pygame.init()
 pygame.display.set_caption("Haku's ADVENTURES")
 screen = pygame.display.set_mode((DISPLAYWEIDTH,DISPLAYHEIGHT))
@@ -15,6 +17,9 @@ pygame.key.set_repeat(1,10)
 true = True
 launched = True
 
+icone = pygame.image.load ("Sprites/personnages/icone.jpg")
+pygame.display.set_icon(icone)
+
 while launched:
         
     map.generatemap()
@@ -25,5 +30,3 @@ while launched:
             
                 player.moving = (player.moving + 1) % 2
                 a = str(player.moving)
-
-    #ceci est un exemple de modif
