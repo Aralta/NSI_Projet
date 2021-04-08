@@ -39,9 +39,9 @@ def deplacement (player,b,a):
             
             
                 
-            print(player.moving)
-            print(b)
-            print(a)
+            #print(player.moving)
+            #print(b)
+            #print(a)
             if  tkey[pygame.K_RIGHT] and player.rect.x < DISPLAYWEIDTH-40:
                 if COLLISION_AREA1.collidepoint(player.rect.x+20,player.rect.y):
                     player.rect.x -= 1
